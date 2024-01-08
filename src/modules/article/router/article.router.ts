@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { inputValidator } from "../../../common/helpers/validator.helper";
-import authorizationMiddleware from "../../../common/middleware/authorization.middleware";
+import authorizationMiddleware from "../../../common/middleware/authentication.middleware";
 import {
   deleteArticleById,
   getArticleById,

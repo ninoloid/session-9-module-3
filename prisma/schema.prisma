@@ -18,6 +18,7 @@ model User {
   articles Article[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+  role String @default("user")
 }
 
 model Article {
